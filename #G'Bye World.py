@@ -8,7 +8,4 @@ def random_string_generator(str_size, allowed_chars):
 chars = string.ascii_letters
 size = 3
  
-print(chars)
-print('Random String of length 12 =', random_string_generator(size, chars))
-
 print("Goodbye World" + " " + random_string_generator(size, chars))
